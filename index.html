@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshDesk UI</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet"  href="freshdesk.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <ul>
+                <li class="headli"><a href="#" class="head"><i class="fas fa-headset headset"></i></a></li>
+                <li><a href="#"><i class="fas fa-tachometer-alt"></i></a><span class="hover">Dashboard</span></li>
+                <li><a href="#"><i class="fas fa-ticket-alt"></i></a><span class="hover">Ticket</span></li>
+                <li><a href="#"><i class="fas fa-address-book"></i></a><span class="hover">Address Book</span></li>
+                <li><a href="#"><i class="fas fa-book-open"></i></a><span class="hover">Contacts</span></li>
+                <li><a href="#"><i class="fas fa-chart-bar"></i></a><span class="hover">Chart bar</span></li>
+                <li><a href="#"><i class="fas fa-cog"></i></a><span class="hover">Setting</span></li>
+            </ul>
+            </div>
+       <div class="maincontent" >    
+            <header class="header">
+                <nav class="navbar navbar-style">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <div class="row">
+                               <div class='col-sm-4'>
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <a><i class="fa fa-bars"></i></a>
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <ul class="firstul">
+                                        <li><a class="dropdown-item" href="#">My Open and Pending Tickets</a></li>
+                                        <li><a class="dropdown-item" href="#">My Overdue Tickets</a></li>
+                                        <li><a class="dropdown-item" href="#">Open Tickets in My Groups</a></li>
+                                        <li><a class="dropdown-item" href="#">Urgent and High Priority Tickets</a></li>
+                                    </ul>
+                                        <hr>
+                                    <ul class="scndul">
+                                        <li><a class="dropdown-item" href="#">All tickets</a></li>
+                                        <li><a class="dropdown-item" href="#">All unresolved tickets</a></li>
+                                        <li><a class="dropdown-item" href="#">New and my open tickets</a></li>
+                                        <li><a class="dropdown-item" href="#">Tickets I raised</a></li>
+                                        <li><a class="dropdown-item" href="#">Tickets I'm watching</a></li>
+                                    </ul>
+                                    <hr>
+                                    <ul>
+                                        <li><a class="dropdown-item" href="#">Spam</a></li>
+                                        <li><a class="dropdown-item" href="#">Trash</a></li>
+                                    </ul>
+                                </div>
+                                </div>
+                                </div>
+                                <div class='col-12 col-md-8'>
+                                    <div class='col'><nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+        <span class="sr-only">Previous</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+        <span class="sr-only">Next</span>
+      </a>
+    </li>
+  </ul>
+</nav> </div>
+                                </div>
+                            </div> 
+                        </div> 
+                    </div>
+                    <div class="card firstcard">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <input type="checkbox" class="head-checkbox">
+                                            Sort by:                      
+                                    <button class="btn scndbtn" type="button" id="dropdownMenuButton"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Date Created
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" >
+                                        <ul>
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Due by Time</a></li>
+                                            <li><a class="dropdown-item" href="#">Last modified</a></li>
+                                            <li><a class="dropdown-item" href="#">Priority</a></li>
+                                            <li><a class="dropdown-item" href="#">Status</a></li>
+                                        </ul>
+                                        <hr>                                      
+                                        <ul>
+                                            <li><a class="dropdown-item" href="#">Date created</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        </ul>
+                                    </div>
+                                   </div>
+                                   <div class='col-sm-4'>
+                                    Layout:
+                                    
+                                        <button class="btn btn-secondary dropdown-toggle btn3" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          card view
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                            <ul>
+                                        <li>card View</li>
+                                        <li>Table View</li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+                
+                </nav>
+            </header>
+        </div>
+        <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    </body>
+</html>
